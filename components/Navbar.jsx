@@ -57,7 +57,7 @@ const Navbar = ({ progressVisible = true }) => {
       >
         <Image 
           src={"/../public/img/twitter-icon.png"}
-          alt="Indeed Logo" 
+          alt="Twitter Logo" 
           width='50'
           height='50'
           className='inline'
