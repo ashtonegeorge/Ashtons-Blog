@@ -32,7 +32,7 @@ const Navbar = ({ progressVisible = true }) => {
         href='https://profile.indeed.com/?hl=en_US&co=US&from=gnav-jobseeker-profile--profile-one-frontend'
       >
         <Image 
-          src="/../public/img/indeed-icon.png" 
+          src={"/../public/img/indeed-icon.png"} 
           alt="Indeed Logo" 
           width='50'
           height='50'
@@ -44,8 +44,8 @@ const Navbar = ({ progressVisible = true }) => {
         href='https://www.linkedin.com/in/ashton-george-160619240/'
       >
         <Image 
-          src="/../public/img/linkedin-icon.png" 
-          alt="Indeed Logo" 
+          src={"/../public/img/linkedin-icon.png"}
+          alt="LinkedIn Logo" 
           width='50'
           height='50'
           className='inline'
@@ -56,7 +56,7 @@ const Navbar = ({ progressVisible = true }) => {
         href='https://www.twitter.com/ashtonegeorge/'
       >
         <Image 
-          src="/../public/img/twitter-icon.png" 
+          src={"/../public/img/twitter-icon.png"}
           alt="Indeed Logo" 
           width='50'
           height='50'

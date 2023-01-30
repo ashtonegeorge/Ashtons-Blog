@@ -18,7 +18,7 @@ const Experience = () => {
 
         <div className='lg:w-1/3 sm:w-1/4 static py-16'>
             <Image 
-                src='/../public/code.png'
+                src={'/../public/code.png'}
                 alt='Image depicting code in an IDE'
                 width='1000'
                 height='1000'

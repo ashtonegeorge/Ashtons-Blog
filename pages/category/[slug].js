@@ -17,7 +17,7 @@ const CategoryPost = ({ posts }) => {
 
     <div className='relative'>
       <Image
-          src="/../public/img/wave-lg.png"
+          src={"/../public/img/wave-lg.png"}
           width='1000'
           height='1000'
           className='fixed z-0 w-[100vw] h-[100vh]'

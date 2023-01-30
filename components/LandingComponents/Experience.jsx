@@ -60,7 +60,7 @@ const Experience = () => {
             >
                 <div className='w-[60vh] relative hidden md:flex'>
                     <Image 
-                        src='/../public/code.png'
+                        src={'/../public/code.png'}
                         alt='Image depicting code in an IDE'
                         width='1000'
                         height='1000'

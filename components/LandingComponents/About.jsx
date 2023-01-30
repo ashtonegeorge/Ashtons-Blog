@@ -57,7 +57,7 @@ const About = () => {
 
                 <div className='w-[75vw] md:w-[35rem] static mx-auto md:m-0 pt-4'>
                     <Image
-                        src="/../public/me.png"
+                        src={"/../public/me.png"}
                         alt="Ashton George"
                         width='1000'
                         height='1000'

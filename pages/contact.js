@@ -93,7 +93,7 @@ export default function contact() {
     <div className="flex relative h-[100vh] overflow-x-hidden">
 
       <Image
-          src="/../public/img/wave-lg.png"
+          src={"/../public/img/wave-lg.png"}
           width='1000'
           height='1000'
           className='fixed z-0 w-[100vw] h-[100vh]'
