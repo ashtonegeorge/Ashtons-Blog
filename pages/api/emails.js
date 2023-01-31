@@ -3,6 +3,7 @@ import sendgrid from "@sendgrid/mail";
 sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
 
 async function sendEmail(req, res) {
+  console.log('beginning of sendEmail function in emails.js');
   // NOTE: Uncomment the below lines to make the code work
   const msg = {
     to: 'ashtongeorge17@gmail.com', // Change to your recipient
@@ -55,6 +56,7 @@ async function sendEmail(req, res) {
       });
   } catch (error) {
     console.log(error);
+    console.log('previously thrown error logged in catch statement of emails.js')
     return res.status(error.statusCode || 500).json({ error: error.message });
   }
 
