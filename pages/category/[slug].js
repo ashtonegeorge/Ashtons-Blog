@@ -2,7 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import { Navbar } from '../../components';
-import WaveBackground from "../public/img/wave-lg.png";
+import WaveBackground from "../../public/img/wave-lg.png";
 
 
 import { getCategories, getCategoryPost } from '../../services';

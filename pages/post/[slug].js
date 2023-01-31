@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router';
 import Image from 'next/image';
-import WaveBackground from "/../public/img/wave-lg.png";
+import WaveBackground from "../../public/img/wave-lg.png";
 
 import { getPosts, getPostDetails } from '../../services';
 
