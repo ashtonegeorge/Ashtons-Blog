@@ -42,7 +42,7 @@ const Experience = () => {
     }, [inView]);
     return (
 
-        <div className="md:h-[115vh] h-[85vh] bg-sky-600 overflow-hidden relative -translate-y-1 font-ubuntu" ref={ref}>
+        <div className="md:h-[115vh] h-[90vh] bg-sky-600 overflow-hidden relative -translate-y-1 font-ubuntu" ref={ref}>
 
             <div>
                 <svg viewBox="0 0 900 600" className='w-full p-0 m-0 absolute left-0 bottom-0'>

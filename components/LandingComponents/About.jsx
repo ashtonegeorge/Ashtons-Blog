@@ -32,7 +32,7 @@ const About = () => {
 
     return (
 
-        <div className="h-[70vh] md:h-[125vh] bg-teal-600 px-8 md:py-12 overflow-hidden relative font-ubuntu" ref={ref}>
+        <div className="h-[90vh] md:h-[125vh] bg-teal-600 px-8 md:py-12 overflow-hidden relative font-ubuntu" ref={ref}>
             <div>
                 <svg viewBox="0 0 900 600" className='w-full p-0 m-0 absolute left-0 bottom-0'>
                     <path d="M0 487L37.5 486.5C75 486 150 485 225 484.8C300 484.7 375 485.3 450 488.2C525 491 600 496 675 493.8C750 491.7 825 482.3 862.5 477.7L900 473L900 601L862.5 601C825 601 750 601 675 601C600 601 525 601 450 601C375 601 300 601 225 601C150 601 75 601 37.5 601L0 601Z" 
@@ -56,7 +56,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='w-[75vw] md:w-[35rem] static mx-auto md:m-0 pt-4'>
+                <div className='w-[75vw] md:w-[35rem] static mx-auto md:m-0  pt-12 md:pt-4'>
                     <Image
                         src={PictureOfMe}
                         alt="Ashton George"

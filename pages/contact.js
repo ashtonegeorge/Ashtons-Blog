@@ -92,7 +92,7 @@ export default function contact() {
     }
   };
   return (
-    <div className="flex relative h-[100vh] overflow-x-hidden">
+    <div className="flex relative h-[120vh] overflow-x-hidden">
 
       <Image
           src={WaveBackground}
@@ -102,7 +102,7 @@ export default function contact() {
           quality={100}
         />
 
-      <div className="p-8 grid grid-cols-1 md:grid-cols-2 gap-4 pt-24 lg:px-40 z-1 absolute w-full">
+      <div className="p-8 grid grid-cols-1 md:grid-cols-2 gap-4 pt-32 lg:px-40 z-1 absolute w-full">
         <div className="relative m-auto md:right-6 px-3 md:px-0">
           <div className="font-bold md:text-6xl text-2xl text-white md:pb-12 pb-3">
             <h1>Reach out to me</h1>
@@ -113,7 +113,7 @@ export default function contact() {
         </div>
         <form
           onSubmit={handleSubmit}
-          className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white h-fit "
+          className="rounded-lg shadow-xl flex flex-col px-8 py-8 mt-12 bg-white h-fit "
         >
           <h1 className="text-2xl font-bold">
             Send a message
