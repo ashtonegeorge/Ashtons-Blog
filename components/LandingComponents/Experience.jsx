@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Image from 'next/image';
 import { motion, useAnimation } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
+import CodeEditor from '../../public/code.png';
 
 const categoryTitles = [ 'Been exposed to', 'Familiar with', 'Some experience with', 'Most experience with' ];
 
@@ -60,7 +61,7 @@ const Experience = () => {
             >
                 <div className='w-[60vh] relative hidden md:flex'>
                     <Image 
-                        src={'/../public/code.png'}
+                        src={CodeEditor}
                         alt='Image depicting code in an IDE'
                         width='1000'
                         height='1000'

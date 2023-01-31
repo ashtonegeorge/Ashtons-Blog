@@ -2,6 +2,8 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import { Navbar } from '../../components';
+import WaveBackground from "../public/img/wave-lg.png";
+
 
 import { getCategories, getCategoryPost } from '../../services';
 import { PostCard, Categories, Loader } from '../../components/BlogComponents';
@@ -17,7 +19,7 @@ const CategoryPost = ({ posts }) => {
 
     <div className='relative'>
       <Image
-          src={"/../public/img/wave-lg.png"}
+          src={WaveBackground}
           width='1000'
           height='1000'
           className='fixed z-0 w-[100vw] h-[100vh]'

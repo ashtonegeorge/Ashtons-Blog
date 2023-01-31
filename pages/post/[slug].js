@@ -1,6 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router';
 import Image from 'next/image';
+import WaveBackground from "/../public/img/wave-lg.png";
 
 import { getPosts, getPostDetails } from '../../services';
 
@@ -18,7 +19,7 @@ const PostDetails = ({ post }) => {
 
     <div className='relative'>
       <Image
-          src={"/../public/img/wave-lg.png"}
+          src={WaveBackground}
           width='1000'
           height='1000'
           className='fixed z-0 w-[100vw] h-[100vh]'

@@ -3,6 +3,10 @@ import Logo from './Logo'
 import Link from 'next/link'
 import Image from 'next/image';
 import { motion, useScroll } from 'framer-motion';
+import LinkedInIcon from '../public/img/linkedin-icon.png';
+import TwitterIcon from '../public/img/twitter-icon.png';
+import IndeedIcon from '../public/img/indeed-icon.png';
+
 
 const Navbar = ({ progressVisible = true }) => {
   const { scrollYProgress } = useScroll();
@@ -32,7 +36,7 @@ const Navbar = ({ progressVisible = true }) => {
         href='https://profile.indeed.com/?hl=en_US&co=US&from=gnav-jobseeker-profile--profile-one-frontend'
       >
         <Image 
-          src={"/../public/img/indeed-icon.png"} 
+          src={IndeedIcon} 
           alt="Indeed Logo" 
           width='50'
           height='50'
@@ -44,7 +48,7 @@ const Navbar = ({ progressVisible = true }) => {
         href='https://www.linkedin.com/in/ashton-george-160619240/'
       >
         <Image 
-          src={"/../public/img/linkedin-icon.png"}
+          src={LinkedInIcon}
           alt="LinkedIn Logo" 
           width='50'
           height='50'
@@ -56,7 +60,7 @@ const Navbar = ({ progressVisible = true }) => {
         href='https://www.twitter.com/ashtonegeorge/'
       >
         <Image 
-          src={"/../public/img/twitter-icon.png"}
+          src={TwitterIcon}
           alt="Twitter Logo" 
           width='50'
           height='50'

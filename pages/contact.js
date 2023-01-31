@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Navbar } from "../components";
 import Image from "next/image";
+import WaveBackground from "../public/img/wave-lg.png";
+
 
 export default function contact() {
   const [fullname, setFullname] = useState("");
@@ -93,7 +95,7 @@ export default function contact() {
     <div className="flex relative h-[100vh] overflow-x-hidden">
 
       <Image
-          src={"/../public/img/wave-lg.png"}
+          src={WaveBackground}
           width='1000'
           height='1000'
           className='fixed z-0 w-[100vw] h-[100vh]'
