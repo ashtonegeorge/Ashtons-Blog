@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { PostCard, Categories, PostWidget, PostCarousel } from './BlogComponents';
+import { PostCard, Categories, PostWidget } from './BlogComponents';
 import { FeaturedPosts } from '../sections';
 
 export default function BlogHome({ posts }) {
@@ -7,6 +7,7 @@ export default function BlogHome({ posts }) {
     <div className="container mx-auto px-10 mb-8" >
       <Head>
         <title>Ashton George Blog</title>
+        <meta name="description" content='Learn Computer Science tips and tricks through blog posts about software and hardware from Ashton George.' />
         <link rel="icon" href="/favicon.ico" />
 
       </Head>

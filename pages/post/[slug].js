@@ -2,6 +2,7 @@ import React from 'react'
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import WaveBackground from "../../public/img/wave-lg.png";
+import Head from 'next/head';
 
 import { getPosts, getPostDetails } from '../../services';
 
@@ -18,6 +19,10 @@ const PostDetails = ({ post }) => {
   return (
 
     <div className='relative'>
+      <Head>
+        <title>{post.title}</title>
+        <meta name="description"  content={post.excerpt}/>
+      </Head>
       <Image
           src={WaveBackground}
           width='1000'
