@@ -47,7 +47,7 @@ const PostDetail = ({ post }) => {
     <div className='bg-zinc-100 shadow-lg rounded-lg lg:p-8 pb-12 mb-8 border-sky-600 border-4'>
       {console.log('hello')}
       <div className='relative overflow-hidden shadow-md mb-6'>
-        {console.log('image url here -> ' + `${post.featuredImage.url}`)}
+        {/* {console.log('image url here -> ' + `${post.featuredImage.url}`)} */}
         <img
           src={post.featuredImage.url}
           alt={post.title}
