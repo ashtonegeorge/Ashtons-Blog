@@ -34,6 +34,7 @@ const PostDetails = ({ post }) => {
       <div className='container mx-auto px-10 pt-24 mb-8 relative'>
         <div className='grid grid-cols-1 lg:grid-cols-12 gap-12 '>
           <div className='col-span-1 lg:col-span-8'>
+            {console.log('slug.js post.featuredImage.url -> ' + `${post.featuredImage.url}`)}
             <PostDetail post={post} />
             <Author author={post.author} />
             <CommentsForm slug={post.slug} />
@@ -54,7 +55,7 @@ const PostDetails = ({ post }) => {
   )
 }
 
-export default PostDetails
+export default PostDetails;
 
 export async function getStaticProps({ params }) {
   const data = await getPostDetails(params.slug);
